@@ -67,10 +67,14 @@ body {
   margin-left: 64px;
   z-index: 10;
   position: relative;
+}
+
+.header__title h1 {
   line-height: 96px;
-  font-size: 60px; /* 102px 62*/
+  font-size: 102px;
   font-weight: 600;
   width: 730px;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -79,10 +83,13 @@ body {
   left: 64px;
   bottom: 30px;
   width: 388px;
+  z-index: 10;
+}
+
+.header__subtitle p {
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  z-index: 10;
 }
 
 .header__link {
@@ -103,9 +110,8 @@ body {
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  width: 500px;
+  width: 568px;
   height: 568px;
-  max-width: 568px;
   background-color:  #2f80ed;
   position: absolute;
   right: 0;
@@ -153,7 +159,7 @@ body {
   min-width: 784px;
 }
 
-.two-columns__paragraph {
+.two-columns__paragraph p {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -181,6 +187,9 @@ body {
 .section-title {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.section-title h2 {
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
@@ -188,6 +197,9 @@ body {
 
 .section-subtitle {
   text-align: center;
+}
+
+.section-subtitle h3 {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -208,7 +220,7 @@ body {
   margin-top: 60px;
 }
 
-.table__heading {
+.table__heading h3 {
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
