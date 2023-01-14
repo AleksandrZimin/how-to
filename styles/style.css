@@ -70,7 +70,7 @@
 
 .header__main-illustration {
   position: absolute;
-  object-fit: contain; 
+  object-fit: contain;
   object-position: right;
   right: 0;
   bottom: 0;
