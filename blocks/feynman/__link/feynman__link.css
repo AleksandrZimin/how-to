@@ -8,9 +8,4 @@
    color: #2f80ed;
    text-decoration: none;
    z-index: 10;
-   transition: 200ms ease;
- }
- 
- .feynman__link:hover {
-   color: #2f81edb4;
  }

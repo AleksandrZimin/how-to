@@ -5,9 +5,4 @@
    font-size: 30px;
    line-height: 42px;
    font-weight: normal;
-   transition: 200ms ease;
- }
- 
- .khan__buy-link:hover {
-   color: #2f81edb4;
  }

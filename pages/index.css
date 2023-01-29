@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
@@ -13,7 +14,7 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/logo/__place_header/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 /* Контент */
 @import url(../blocks/content/content.css);
 /* Блок two-columns */
@@ -82,3 +83,4 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
